@@ -30,8 +30,8 @@ int main()
         else
             return 0;
     }
-	delete data;
-	delete arr_xor;
+	delete[] data;
+	delete[] arr_xor;
     //free(data);
     //free(arr_xor);
     return 0;
